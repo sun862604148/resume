@@ -23,22 +23,6 @@
           </div>
           <div class="right" style="margin-top:20px;">
             <div  class="content connect">
-             <!--  <div class="icon-box">
-               <el-tooltip class="item ball" effect="dark" content="个人网站" placement="top">
-                 <a :href="connect.web" target="_blank"><i class="iconfont icon-web3"></i></a>
-               </el-tooltip>
-               <el-tooltip class="item ball" effect="dark" content="Github" placement="top">
-                 <a :href="connect.github" target="_blank"><i class="iconfont icon-github"></i></a>
-               </el-tooltip>
-               <el-tooltip class="item ball" effect="dark" content="gitee 码云" placement="top">
-                 <a :href="connect.gitee" target="_blank"><i class="iconfont icon-git"></i></a>
-               </el-tooltip>
-               <el-tooltip class="item ball" effect="dark" content="Segmentfault" placement="top">
-                 <a :href="connect.segmentfault" target="_blank">
-                   <i class="iconfont icon-question"></i>
-                 </a>
-               </el-tooltip>
-             </div> -->
               <ul style="margin-top:24px;">
                 <li>{{connect.email}} <i class="iconfont icon-email"></i></li>
                 <li>{{connect.cellphone}}
@@ -77,7 +61,6 @@ export default {
     return {
       name: '孙永豪',
       title: '前端开发工程师',
-     // title_line2: '（偏全栈运维方向）FSDOE',
       icpno: '鲁ICP备17056479号',
       info: {
         basic: '山东 · 烟台 / 1996.03 / 男',
@@ -113,91 +96,33 @@ export default {
                 },
               ],
             },
-           /* {
+            {
               key: 2,
-              title: 'U果新CRM和接单系统中端 - api（内部名称：三元桥）',
-              description: '核心技术使用ThinkPHP5.x框架，使用运行环境为apache2、php5.4以上环境。用于对接微信小程序。代码托管平台：coding.net',
-              urls: [],
-            },
-            {
-              key: 3,
-              title: 'U果Lite - 微信小程序（内部名称：小苹果）',
-              description: 'U果CRM阉割版，主要功能是给使用者查看CRM提供的mapreduce数据，和进行简单的管理。使用WeUI、微信开发者工具进行代码编写。我主要做了框架搭建、接口代理两大块。代码托管平台：coding.net',
-              urls: [
-                {
-                  text: 'U果Lite',
-                  url: '#',
-                  type: 'warning',
-                },
-              ],
-            },*/
-            {
-              key: 4,
               title: '对标360 duibiao360.com',
               description: '供职于对标科技时，在CTO的带头下进行了原始产品的改版。我们将UI库从Material-UI切换到and.design，同时将语法升级到ES6。并且使用了百度的echarts图表插件进行了数据可视化。该项目使用react-transmit从服务端获取数据，并在前后端同时渲染，使得搜索引擎在抓去代码时候可以获取到服务端传来的数据。代码托管平台：coding.net',
               urls: [
                 {
-                  text: '下线或不稳定',
+                  text: '对标科技',
                   url: 'http://www.duibiao360.com',
                   type: '',
                 },
               ],
             },
-           /* {
-              key: 5,
-              title: '海外帮 hwbang.com',
-              description: '【苏州易达捷进出口贸易有限公司 ／ 苏州亿极云商科技有限公司深圳分公司开发部】代码托管平台：GoGIT',
-              urls: [
-                {
-                  text: '海外帮',
-                  url: 'http://www.hwbang.com',
-                  type: 'success',
-                },
-              ],
-            },*/
           ],
         },
-      /*  projects_p: {
-          title: '项目经验 - 个人',
-          list: [
-            {
-              key: 1,
-              title: '公交报站器（pc-web）管理端',
-              description: '使用vue-cli脚手架构建项目，配合webpack作为打包工具、vue-router的hash模式（可转history模式）、element UI作为样式库。eslint Airbnb作为代码格式规范标准。代码托管平台：github',
-              urls: [
-                {
-                  text: '管理端',
-                  url: 'https://bus.ipietech.net',
-                  type: 'success',
-                },
-                {
-                  text: '司机端',
-                  url: '#',
-                  type: 'info',
-                },
-              ],
-            },
-          ],
-        },*/
         history: {
           title: '工作经历',
           list: [
             {
               key: 1,
               title: '北京快洁筷好味科技有限公司',
-              description: '【2017.10至今】 - 高级前端开发工程师（偏全栈+运维）',
+              description: '【2017.6至今】 - 前端开发工程师',
               urls: [],
             },
             {
               key: 2,
               title: '北京对标科技有限责任公司',
-              description: '【2016.10 - 2017.9】 - 前端开发工程师',
-              urls: [],
-            },
-            {
-              key: 3,
-              title: '北京师范大学珠海分校',
-              description: '【2016.3 - 2016.9】 - 项目开发特聘讲师',
+              description: '【2016.10 - 2017.5】 - 前端开发工程师',
               urls: [],
             },
           ],
@@ -230,7 +155,7 @@ export default {
             {
               key: 2,
               title: '联合开发能力',
-              description: '熟练使用git版本控制系统，熟练使用分支、解决冲突处理和代码merge等，熟悉svn。',
+              description: '熟练使用git版本控制系统，熟练使用分支、解决冲突处理和代码merge等。',
               urls: [
                 {
                   text: 'git',
@@ -244,33 +169,6 @@ export default {
                 },
               ],
             },
-           /* {
-              key: 3,
-              title: '后端和运维',
-              description: '熟悉ThinkPHP、CI，了解Yii等PHP框架，熟悉MVC模式。对常见的Linux发行版本（包括但不限于Ubuntu、Debian、CentOS）可进行一般的日常的服务器维护操作，熟练搭建LNMP(A)环境。能够搭建ShadowSocksR梯子环境，和进行本地多平台的配置。',
-              urls: [
-                {
-                  text: 'PHP',
-                  url: '#',
-                  type: 'success',
-                },
-                {
-                  text: 'MVC',
-                  url: '#',
-                  type: 'success',
-                },
-                {
-                  text: 'LNMPA',
-                  url: '#',
-                  type: 'success',
-                },
-                {
-                  text: 'VPN',
-                  url: '#',
-                  type: 'success',
-                },
-              ],
-            },*/
           ],
         },
       },
